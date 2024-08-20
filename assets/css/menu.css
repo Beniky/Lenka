@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding:0;
+
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.left{
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 11, 11);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.left img{
+    width: 35vw;
+}
+
+.left p{
+    font-size: 65px;
+    font-family: 'james fajardo';
+    color: rgb(226, 125, 31);
+    margin-top:20vh;
+}
+
+.left h2{
+    font-size: 45px;
+    font-family: "onsen japan demo";
+    color: rgb(215, 215, 215);
+    text-shadow: 
+                -1px -1px 0 #000,  
+                 3px -1px 0 #000,
+                -1px 1px 0 #000,
+                5px 1px 0 #000; 
+    margin-bottom: -10vh;
+
+}
+
+.right{
+    width: 55vw;
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+.starters{
+    font-size: 65px;
+    font-family: 'james fajardo';
+    color: rgb(226, 125, 31);
+    
+}
+
+.jedlo{
+     width: 100%;
+     height: 20vh;
+     display: flex;
+     flex-direction:row;
+     justify-content:space-between;
+     border-radius: 25px;
+     padding: 20px 0;
+
+}
+.jedlo img{
+    height: 100%;
+    border-radius: 25px;
+    margin-left: 30px;
+
+}
+
+.jedlo:hover{
+    border: 1px rgb(226, 125, 31) solid;
+    transition:  0.2s ease;
+   
+}
+
+.food{
+    width: 60%;
+    height: 15vh;
+
+   
+   
+}
+.food h3{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 4px;
+    color:rgb(215, 215, 215) ;
+    margin-top: 8px;
+
+}
+.food p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 4px;
+    color:rgb(215, 215, 215) ;
+    margin-top: 25px;
+   
+   
+}
+.cena{
+    width: 10%;
+    height: 15vh;
+}
+.cena p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 4px;
+    color:rgb(215, 215, 215) ;
+    margin-top: 55px;
+   
+}

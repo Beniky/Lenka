@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding:0;
+
+}
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.left{
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+  
+    
+}
+
+.left img{
+    width: 20vw;
+    margin-top: 90px;
+}
+
+.left p{
+    font-size: 65px;
+    font-family: 'james fajardo';
+    color: rgb(226, 125, 31);
+    margin-top: 200px;
+}
+
+.left h2{
+    font-size: 45px;
+    font-family: "onsen japan demo";
+    color: rgb(215, 215, 215);
+    text-shadow: 
+                -1px -1px 0 #000,  
+                 3px -1px 0 #000,
+                -1px 1px 0 #000,
+                5px 1px 0 #000; 
+    margin-bottom: -10vh;
+
+}
+
+.right{
+    width: 60vw;
+    height:100vh;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    background-color: #000;
+     
+}
+
+.celebration{
+   
+    width:20vw;
+    height: 90vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+    background-image: url(../images/eventOalva.jpg);
+    background-repeat: no-repeat;  
+    box-shadow: 0-20px 30px 5px  rgba(164, 96, 23, 0.941); 
+      
+}
+
+.celebration:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition:  0.4s ease;
+}
+.celebration p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 25px;
+}
+
+.teambuldings{
+    
+    width:20vw;
+    height: 90vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+    background-image: url(../images/eventTeambulding.jpg);
+    background-repeat: no-repeat;   
+    box-shadow: 0-20px 30px 5px  rgba(164, 96, 23, 0.941); 
+    
+}
+ 
+
+.teambuldings:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition:  0.4s ease;
+}
+
+.teambuldings p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 25px;
+}
+
+.learning{
+    width:20vw;
+    height: 90vh;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+    background-image: url(../images/eventCheaf.jpg);
+    background-repeat: no-repeat;  
+    box-shadow: 0-20px 30px 5px  rgba(164, 96, 23, 0.941); 
+    
+}
+
+
+.learning:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition:  0.4s ease;
+}
+
+.learning p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 25px;
+}
+
+.right h2{
+    font-size: 25px;
+    font-family:"onsen japan demo";
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+                -1px -1px 0 #000,  
+                 3px -1px 0 #000,
+                -1px 1px 0 #000,
+                5px 1px 0 #000; 
+                margin-top: 40px;
+
+}
+
+
+.box1{
+    width:20vw;
+    height: 12em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+  
+ }
+
+ 
+.box2{
+    width:20vw;
+    height: 12em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+ }
+
+ 
+.box3{
+    width:20vw;
+    height: 12em;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items: center;
+ }
+ 
