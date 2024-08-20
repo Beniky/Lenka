@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Playwrite+US+Modern:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding:0;
+
+}
+
+body{
+    font-family: "Poppins", sans-serif;  
+}
+
+.banner{
+   
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/sushiZhora.jpg) center/ cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 350px 350px;
+}
+
+.banner h2{
+    font-size: 50px;   
+    font-family:  "onsen japan demo";
+}
+
+.card-content{
+    width: 20vw;
+    /* height: 330px; */
+    background: rgb(191, 121, 16);
+    border-radius: 5px;
+    padding: 10px;
+   
+   
+}
+
+
+.card-content h3{
+    font-family: "RagingRedLotus BB";
+    text-align: center;
+    color: black;
+    padding: 25px 0 10px 0;
+    font-size: 50px;
+    font: weight 500; 
+    
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 8px;
+    font-size: 30px;
+    font-family: "RagingRedLotus BB";  
+    color: black;
+    outline: none;
+    border-radius: 5px;
+    border:  1px solid rgb(0, 0, 0) ;
+    font-weight: 300;
+    
+}
+
+form input [ type = text],
+form input [ type = number] ,
+form input::placeholder,
+select{color: #b25858;}
+
+form input[ type = submit] {
+    font-weight: bolder;
+    letter-spacing: 3px;
+    color: #ffffff;
+    background: rgb(23, 23, 22);
+    padding: 12px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[ type = submit]:hover{
+    opacity: 0.5;
+ 
+}
+
+.card-container{
+    grid-template-columns: 100%;
+    border-radius: 2px;
+}
