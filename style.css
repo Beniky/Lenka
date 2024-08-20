@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding:0;
+
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100vw;
+    height: 7vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    padding: 0 2% ;
+
+}
+
+header p{
+    font-size: 30px;
+    font-style: italic;
+    font-family: "RagingRedLotus BB";
+    letter-spacing: 1px;
+    color: rgb(255, 254, 249);
+    cursor: pointer;
+    transition: 0.2s ease;
+    
+}
+
+.headmenu{
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sakura{
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: -25px;
+   
+}
+
+header p:nth-child(1):hover, header p:nth-child(2):hover, header p:nth-child(3):hover{
+    color: rgba(234, 145, 2, 0.937);    
+}
+
+.book{
+    padding: 10px;
+    background-color:  rgb(158, 127, 26);
+    border: 2px rgb(255, 255, 255) solid;
+    transition: 0.4s ease;
+    border-radius: 5px;
+}
+
+ 
+.book:hover {
+    transform: scale(1.1);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.mainA{
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/nova.jpg);
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+
+
+.slogan {
+    font-size: 60px;
+    font-style: italic;
+    font-family: "RagingRedLotus BB";
+    letter-spacing: 10px;
+    color: rgb(181, 145, 27);
+    text-shadow: 
+                -1px -1px 0 #000,  
+                 3px -1px 0 #000,
+                -1px 1px 0 #000,
+                5px 1px 0 #000; 
+    position: absolute;
+    left: -120px;
+    top: 15vh;
+             
+}
+
+
+.japan{
+    font-size: 150px;
+    font-style: italic;
+    font-family: "onsen japan demo";
+    letter-spacing: 28px;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.688); 
+    height: 30vh;
+}
+
+
+.text {
+    font-size: 30px;
+    font-family: "RagingRedLotus BB";
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: 
+                -1px -1px 0 #000,  
+                 1px -1px 0 #000,
+                -1px 1px 0 #000,
+                -1px 1px 0 #000; 
+   
+}
+
+.main-box{
+    position: relative;
+    padding-top: 20vh;
+}
+
+
+.secondmain{
+    margin-top: 100vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.629);
+}
+
+.left{
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/pancakes.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.middle{
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/coffetime.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.middle h2{
+    position: absolute;
+    top: 430px;
+    left: 130px;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(../images/vegan.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.secondmain p {
+    font-size: 65px;
+    font-family: 'james fajardo';
+    color: rgb(247, 174, 48);
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    text-shadow: 
+                -1px -1px 0 #000,  
+                 1px -1px 0 #000,
+                -1px 1px 0 #000,
+                1px 1px 0 #000; 
+   
+}
+
+.secondmain h2 {
+    font-size: 40px;
+    font-family: "onsen japan demo";
+    color: bisque;
+    text-shadow: 
+                -1px -1px 0 #000,  
+                 3px -1px 0 #000,
+                -1px 1px 0 #000,
+                5px 1px 0 #000; 
+}
+
+
+
